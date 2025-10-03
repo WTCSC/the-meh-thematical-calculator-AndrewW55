@@ -1,1 +1,36 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/GDLJrpJJ)
+# The Meh Mathematical Calculator
+
+A simple, minimalistic calculator written in Python.  
+Originally created as a classroom / learning project, this “meh” calculator supports basic arithmetic operations with a clean and lightweight structure.
+
+---
+
+## Table of Contents
+
+- [Features](#features)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Examples](#examples)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
+---
+
+## Features
+
+- Addition, subtraction, multiplication, division  
+- Handles floating-point and integer arithmetic  
+- Graceful error handling (e.g. division by zero)  
+- Clean, easy to read code (educational focus)  
+
+> ⚠️ This is not a full scientific calculator — it’s intended as a learning tool or basic utility.
+
+---
+
+## Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/WTCSC/the-meh-thematical-calculator-AndrewW55.git
+   cd the-meh-thematical-calculator-AndrewW55
