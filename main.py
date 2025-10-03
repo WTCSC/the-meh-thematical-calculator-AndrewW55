@@ -10,7 +10,7 @@ def exp(a,b):
     return a**b
 
 def main():
-    print("Welcome twin")
+    print("Suhh jit")
     num1 = float(input("what is your first number? "))
     num2 = float(input("What is your second number? "))
     func = input("What operation(/, +, -, *, ^)? ")
