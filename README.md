@@ -18,7 +18,7 @@ Originally created as a classroom / learning project, this “meh” calculator 
 
 ## Decisions
 
-<img src:"2510222e-e1cd-4fe5-83ba-f87d8662bee5.png"></img>
+![image](the-meh-thematical-calculator-AndrewW55/2510222e-e1cd-4fe5-83ba-f87d8662bee5.png)
 
 ## Installation
 
