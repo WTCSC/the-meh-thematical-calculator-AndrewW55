@@ -5,18 +5,6 @@ Originally created as a classroom / learning project, this “meh” calculator 
 
 ---
 
-## Table of Contents
-
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Examples](#examples)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-
----
-
 ## Features
 
 - Addition, subtraction, multiplication, division  
@@ -27,6 +15,10 @@ Originally created as a classroom / learning project, this “meh” calculator 
 > ⚠️ This is not a full scientific calculator — it’s intended as a learning tool or basic utility.
 
 ---
+
+## Decisions
+
+<img src:"2510222e-e1cd-4fe5-83ba-f87d8662bee5.png"></img>
 
 ## Installation
 
