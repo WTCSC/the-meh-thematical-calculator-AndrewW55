@@ -26,3 +26,9 @@ Originally created as a classroom / learning project, this “meh” calculator 
    ```bash
    git clone https://github.com/WTCSC/the-meh-thematical-calculator-AndrewW55.git
    cd the-meh-thematical-calculator-AndrewW55
+
+## Testing
+
+1. run 
+   ```bash
+   pytest
