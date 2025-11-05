@@ -16,7 +16,8 @@ def main():
     func = input("What operation(/, +, -, *, ^)? ")
 
     if func == "/":
-        print(div(num1, num2))
+        try: print(div(num1, num2))
+        except ZeroDivisionError: print("undefined")
     if func == "*":
         print(mul(num1, num2))
     if func == "+":
@@ -34,5 +35,3 @@ while maybe == True:
         maybe = False
     elif y == "N":
         maybe = True
-
-        
