@@ -3,7 +3,8 @@ def add(a,b):
 def sub(a,b):
     return a - b
 def div(a,b):
-    return a / b
+    try: return a / b
+    except ZeroDivisionError: return "undefined"
 def mul(a,b):
     return a * b
 def exp(a,b):
@@ -16,8 +17,7 @@ def main():
     func = input("What operation(/, +, -, *, ^)? ")
 
     if func == "/":
-        try: print(div(num1, num2))
-        except ZeroDivisionError: print("undefined")
+        print(div(num1, num2))
     if func == "*":
         print(mul(num1, num2))
     if func == "+":
@@ -27,11 +27,12 @@ def main():
     if func == "^":
         print(exp(num1, num2))  
 
-maybe = True
-while maybe == True:
-    main()
-    y = str.capitalize(input("Done? Y/N: "))
-    if y == "Y":
-        maybe = False
-    elif y == "N":
-        maybe = True
+if __name__ == "__main__":
+    maybe = True
+    while maybe == True:
+        main()
+        y = str.capitalize(input("Done? Y/N: "))
+        if y == "Y":
+            maybe = False
+        elif y == "N":
+            maybe = True
